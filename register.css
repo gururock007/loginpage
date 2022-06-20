@@ -1,0 +1,140 @@
+.CentralBoxContiner{
+    height: 70vh;
+    /* align-items: center; */
+    position: absolute;
+    /* display: flex; */
+    background-color: #fafafa;
+    left: 70vh;
+    top: 6vh;
+}
+.CentralBox{
+    height: 100%;
+    width: 40vh;
+    border: 1px solid #e2e2e2 ;
+    text-transform: capitalize;
+    background-color: white;
+}
+.Logincentralbox{
+    display: flex;
+    height: 12%;
+    width: 40vh;
+    border: 1px solid #e2e2e2;
+    text-transform: capitalize;
+    background-color: white;
+    text-align: center;
+    margin-top: -1%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header{
+    text-align: center;
+    font-size: 30px;
+}
+.header a{
+    text-decoration: none;
+    color: black;
+}
+.reg{
+    text-align: center;
+    font-size: 13px;
+    text-transform: capitalize;
+    font-size: 19px;
+    font-family: 'Lato';
+    font-weight: 900;
+    color: #a6aaaf;
+}
+.FormWrapper{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40%;
+    align-items: center;}
+.forms{
+    width: 80%;
+    text-align: center;
+}
+.inputfeild{
+    display: block;
+    padding: 1%;
+}
+.fname{
+    width: 100%;
+    height: 4vh;
+}
+.termscon{
+    text-align: center;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.termstext{
+    width: 80%;
+    font-family: 'Quicksand';
+}
+.btnWrapper{
+    text-align: center;
+    padding: 2%;
+}
+.subbtn{
+    width: 75%;
+    height: 4vh;
+}
+.inputField {
+    display: block;
+    padding: 1%;
+    position: relative;
+  }
+.inputField input {
+    display: block;
+    width: 94%;
+    padding: 8px 8px;
+    padding-top: 18px;
+    border: 1.8px solid rgba(107, 107, 107, 0.4);
+    border-radius: 3px; 
+    color: black;
+}
+  
+.inputField input:focus {
+    border: 1.8px solid #6b6b6b;
+    outline: none;
+}
+  
+.inputField span {
+    pointer-events: none;
+    opacity: 0.5;
+    position: absolute;
+    padding-left: 12px;
+    left: 0px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: text;
+}
+  
+.inputField input:focus+span,
+.inputField input:not(:placeholder-shown)+span {
+    top: 7px;
+    -webkit-transform: scale(0.7) translateY(-10%) translateX(-8.5px);
+    transform: scale(0.7) translateY(-10%) translateX(-8.5px);
+}
+  
+.inputField input,
+.inputField span {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    -webkit-transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+.svg{
+    left: 82% !important;
+    top: 52.5% !important;
+    }
+.checkcirclefill{
+    display: none;
+}
+.xcirclefill{
+    display: none;
+}
